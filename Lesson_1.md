@@ -44,8 +44,12 @@ assert(malloc_counter == 0);
 14 Use lint
 
 ## Compile
+THe C compiler works in 3 stages:
+1. Pre-process source file
+2. Compile source file into object files
+3. Link objects into an executable
 ```console
-gcc hello.c -Wall -O -pedantic -o hello
+gcc -Wall -O hello -o hello.c
 ```
 
 ## Array
@@ -90,26 +94,64 @@ The size is determined from the type of the operand. The result is an integer.[S
 size_t is an unsigned integer type used to represent the size of any object (including arrays) in the particular implementation. The sizeof operator yields a value of the type size_t. The maximum size of size_t is provided via SIZE_MAX, a macro constant which is defined in the <stdint.h> header. size_t is a type that can hold any array index. Depending on the implementation, it can be any of:
 ```C
 unsigned char
-
 unsigned short
-
 unsigned int
-
 unsigned long
-
 unsigned long long
 ```
 
 ```C
-limit of
-size_t
-SIZE_MAX                           65535
+limit of size_t SIZE_MAX  65535
 ```
 
+## inttypes.h
+The purpose of <inttypes.h> is to provide a set of integer types whose definitions are consistent across machines and independent of operating systems and other implementation idiosyncrasies. It defines, via typedef, integer types of various sizes. Implementations are free to typedef them as ISO C standard integer types or extensions that they support. Consistent use of this header will greatly increase the portability of applications across platforms.
+
+'''C
+#include <inttypes.h>
+int8_t a;
+int16_t b;
+int32_t c;
+'''
+
+### Define headers files
+
+'''C
+#ifdef _MY_HEADER_H_
+#define _MY_HEADER_H_
+
+...
+
+#endif
+'''
 
 
+### Pointers
+The star symbol * point to something and the & indicate the address of that memory address. 
+Pointers must have the same type of the address they are pointing to. 
+```C
+int i = 8; 
+int *p; 
+p = &i;
+```
+But if p was declared double, it would result in an error. 
 
+```C
+int *ptr;                           /* Pointer to an int */
+unsigned char *c;                   /* Pointer to an unsigned char */
+struct ComplexNumber n*;            /* Pointer to a struct */
+int **pp;                           /* Pointer to a pointer to an int */
+void *v;                            /* Pointer to anything */
 
+```
 
+#### Declare VS Deference(assign)
+We have already seen how to declare a pointer int *p; , but we can as well deference a pointer in other words assign a new value to the memory address the pointer is poiting too. To better explain the idea, think about that the pointer is not a passive reader of the memory location, but it has both propieties of reading and writing the memory address is pointing to. 
 
-
+```C
+int i = 8; 
+int *p; 
+p = &i;
+*p = 12; 
+/* output: i is now equal to 12 */
+```
