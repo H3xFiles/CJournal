@@ -3,6 +3,8 @@
 ### On 19/09/2018
 I am starting this journal to better document C. 
 
+
+#### Links of the day:
 - [C Linked List ZENTUT](http://www.zentut.com/c-tutorial/c-linked-list/)
 - [How to create Linked list using C/C++](https://www.codeproject.com/articles/24684/how-to-create-linked-list-using-c-c)
 - [Tutorial point Linked list](https://www.tutorialspoint.com/data_structures_algorithms/linked_list_program_in_c.htm)
@@ -10,5 +12,11 @@ I am starting this journal to better document C.
 - [Lesson 15: Singly linked lists in C](https://www.cprogramming.com/tutorial/c/lesson15.html)
 
 
-### Links:
+
+
+
+
+
+
+### Other Links:
 [C library function - isalnum()](https://www.tutorialspoint.com/c_standard_library/c_function_isalnum.htm)
