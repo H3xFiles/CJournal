@@ -86,6 +86,26 @@ long double:    8 bytes
 The sizeof operator  yields  the  size  (in  bytes)  of  its  operand, which may be an expression or the parenthesized name of a type.
 The size is determined from the type of the operand. The result is an integer.[Source](http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1256.pdf)
 
+## size_t
+size_t is an unsigned integer type used to represent the size of any object (including arrays) in the particular implementation. The sizeof operator yields a value of the type size_t. The maximum size of size_t is provided via SIZE_MAX, a macro constant which is defined in the <stdint.h> header. size_t is a type that can hold any array index. Depending on the implementation, it can be any of:
+```C
+unsigned char
+
+unsigned short
+
+unsigned int
+
+unsigned long
+
+unsigned long long
+```
+
+```C
+limit of
+size_t
+SIZE_MAX                           65535
+```
+
 
 
 
