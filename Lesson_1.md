@@ -45,7 +45,7 @@ assert(malloc_counter == 0);
 
 ## Compile
 ```console
-gcc -Wall -O hello -o hello.c
+gcc hello.c -Wall -O -pedantic -o hello
 ```
 
 ## Array
