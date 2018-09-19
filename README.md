@@ -12,7 +12,7 @@ I am starting this journal to better document C.
 - [Lesson 15: Singly linked lists in C](https://www.cprogramming.com/tutorial/c/lesson15.html)
 - [Modular online encoding, encryption and conversion tool](https://cryptii.com/)
 - [A Simple Makefile Tutorial](http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/)
-- [How to Allocate Dynamic Memory Safely](https://barrgroup.com/Embedded-Systems/How-To/Malloc-Free-Dynamic-Memory-Allocation)
+- [How to Allocate Dynamic Memory Safely - barrgroup(important!)](https://barrgroup.com/Embedded-Systems/How-To/Malloc-Free-Dynamic-Memory-Allocation)
 
 
 
