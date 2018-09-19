@@ -10,6 +10,7 @@ I am starting this journal to better document C.
 - [Tutorial point Linked list](https://www.tutorialspoint.com/data_structures_algorithms/linked_list_program_in_c.htm)
 - [learn-c Linked_lists](https://www.learn-c.org/en/Linked_lists)
 - [Lesson 15: Singly linked lists in C](https://www.cprogramming.com/tutorial/c/lesson15.html)
+- [Modular online encoding, encryption and conversion tool](https://cryptii.com/)
 
 
 
