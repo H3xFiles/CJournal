@@ -57,6 +57,7 @@ gcc -Wall -O hello -o hello.c
 int a[3];
 int b[3][3];
 char hello[15] = "Hello, world!\n";
+char *array = a; 
 ```
 
 ## Format strings
@@ -143,6 +144,24 @@ void *v;                            /* Pointer to anything */
 
 ```
 
+Another great way to understand pointers ([ref](https://hackaday.com/2018/04/04/the-basics-and-pitfalls-of-pointers-in-c/))
+```C
+// regular int variable with initial value
+int value = 0x1000;
+// int pointer variable, pointing to the location of value
+int *pointer = &value;
+ 
+printf("value:    0x%x at address %p\n", value, &value);
+printf("pointer:    %p at address %p\n", pointer, &pointer);
+printf("*pointer: 0x%x at address %p\n", *pointer, pointer);
+```
+The output is the following ... 
+```bash
+value:    0x1000 at address 0x2468
+pointer:  0x2468 at address 0x246c
+*pointer: 0x1000 at address 0x2468
+```
+
 #### Declare VS Deference(assign)
 We have already seen how to declare a pointer int *p; , but we can as well deference a pointer in other words assign a new value to the memory address the pointer is poiting too. To better explain the idea, think about that the pointer is not a passive reader of the memory location, but it has both propieties of reading and writing the memory address is pointing to. 
 
@@ -152,4 +171,12 @@ int *p;
 p = &i;
 *p = 12; 
 /* output: i is now equal to 12 */
+```
+
+#### When to use malloc and free with pointers? 
+The primary reason malloc is needed is when you have data that must have a lifetime that is different from code scope. Your code calls malloc in one routine, stores the pointer somewhere and eventually calls free in a different routine.
+```C
+ptr = (int*) malloc(100 * sizeof(int));
+free( ptr );
+
 ```
