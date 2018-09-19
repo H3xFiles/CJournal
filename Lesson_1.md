@@ -107,21 +107,21 @@ limit of size_t SIZE_MAX  65535
 ## inttypes.h
 The purpose of <inttypes.h> is to provide a set of integer types whose definitions are consistent across machines and independent of operating systems and other implementation idiosyncrasies. It defines, via typedef, integer types of various sizes. Implementations are free to typedef them as ISO C standard integer types or extensions that they support. Consistent use of this header will greatly increase the portability of applications across platforms.
 
-'''C
+```C
 #include <inttypes.h>
 int8_t a;
 int16_t b;
 int32_t c;
-'''
+```
 
 ### Define headers files
 
-'''C
+```C
 #ifdef _MY_HEADER_H_
 #define _MY_HEADER_H_
  Some code here ....
 #endif
-'''
+```
 
 
 ### Pointers
