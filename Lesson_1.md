@@ -119,9 +119,7 @@ int32_t c;
 '''C
 #ifdef _MY_HEADER_H_
 #define _MY_HEADER_H_
-
-...
-
+ Some code here ....
 #endif
 '''
 
