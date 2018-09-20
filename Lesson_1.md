@@ -48,9 +48,10 @@ THe C compiler works in 3 stages:
 1. Pre-process source file
 2. Compile source file into object files
 3. Link objects into an executable
-```console
-gcc -Wall -O hello -o hello.c
-```
+```bash
+ gcc hello.c -Wall -O -pedantic -o hello 
+ 
+ ```
 
 ## Array
 ```C
