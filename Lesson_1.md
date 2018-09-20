@@ -69,6 +69,7 @@ char *array = a;
 %c | character
 %d | float
 %s | string
+%p | pointer
 %% | print %
 ```
 
