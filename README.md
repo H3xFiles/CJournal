@@ -22,12 +22,13 @@ I am starting this journal to better document C.
 
 ### 20/09/2018
 Class about gdb at the university.
-Check tools: Valgrind
+Check tools: Valgrind, strace
 
 #### Links of the day:
 - [Coursera: Find bugs in C](https://www.coursera.org/learn/writing-running-fixing-code/lecture/fwpDK/testing-means-finding-bugs)
 - [Book about GDB](https://www.eecs.umich.edu/courses/eecs373/readings/Debugger.pdf)
 - [Presentation GDB](https://www.cs.umd.edu/~srhuang/teaching/cmsc212/gdb-tutorial-handout.pdf)
+- [How processes get more memory. (mmap, brk) - Jacob Sorber](https://www.youtube.com/watch?v=XV5sRaSVtXQ)
 
 
 
