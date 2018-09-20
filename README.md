@@ -20,5 +20,16 @@ I am starting this journal to better document C.
 - [functions-malloc-and-free](https://www.codingunit.com/c-tutorial-the-functions-malloc-and-free)
 
 
+### 20/09/2018
+Class about gdb at the university.
+Check tools: Valgrind
+
+#### Links of the day:
+- [Coursera: Find bugs in C](https://www.coursera.org/learn/writing-running-fixing-code/lecture/fwpDK/testing-means-finding-bugs)
+- [Book about GDB](https://www.eecs.umich.edu/courses/eecs373/readings/Debugger.pdf)
+- [Presentation GDB](https://www.cs.umd.edu/~srhuang/teaching/cmsc212/gdb-tutorial-handout.pdf)
+
+
+
 ### Other Links:
 [C library function - isalnum()](https://www.tutorialspoint.com/c_standard_library/c_function_isalnum.htm)
