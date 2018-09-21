@@ -31,6 +31,9 @@ Check tools: Valgrind, strace
 - [How processes get more memory. (mmap, brk) - Jacob Sorber](https://www.youtube.com/watch?v=XV5sRaSVtXQ)
 
 
+### 21/09/2018
+- [Socket Programming in C](https://www.youtube.com/watch?v=LtXEMwSG5-8)
+
 
 ### Other Links:
 [C library function - isalnum()](https://www.tutorialspoint.com/c_standard_library/c_function_isalnum.htm)
