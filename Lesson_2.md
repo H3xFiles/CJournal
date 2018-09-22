@@ -8,8 +8,10 @@ The best way to explain struct is to see them in action, so this is the code of 
 
 ```C
 #include <stdlib.h>
+#pragma pack(1) //pack the struct to the real size without padding
+//The ‘#pragma’ directive is the method specified by the C standard for providing additional information to the compiler/
 
-typedef struct node{
+typedef struct{
   int val;
   struct *next_node;
 }node_t;
