@@ -34,6 +34,11 @@ Check tools: Valgrind, strace
 ### 21/09/2018
 - [Socket Programming in C](https://www.youtube.com/watch?v=LtXEMwSG5-8)
 
+### 23/09/2018
+It's sunday and WOrkingon an assignment about reversing a binary file (reversing in the meaning of reversing the content bottom-up), weather sucks raining so much all night long. Deadline tomorrow, pretty chill. For this assignment I used mostly the teacher slides and some youtube video. Here is the code [DLinkedList_reverse_binary](https://github.com/H3xHunter/CJournal/blob/master/DLinkedList_reverse_binary.md).
+
+- [Linked List in C/C++ - Inserting a node at beginning](https://www.youtube.com/watch?v=cAZ8CyDY56s)
+- [How to create and display a Linked List in C programming](https://www.youtube.com/watch?v=7Fz7JSvlr9g)
 
 ### Other Links:
 [C library function - isalnum()](https://www.tutorialspoint.com/c_standard_library/c_function_isalnum.htm)
