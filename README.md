@@ -43,13 +43,19 @@ It's sunday and WOrkingon an assignment about reversing a binary file (reversing
 ### 01/10/2018
 Today is about socket programming in C. I need to do an UDP server. 
 resources:
-- [Server in C](https://ops.tips/blog/a-tcp-server-in-c/#the-overview)
 - [Linux-Programming-Interface-System-Handbook-ebook](https://www.amazon.com/Linux-Programming-Interface-System-Handbook-ebook/dp/B004OEJMZM/ref=as_li_ss_tl?ie=UTF8&linkCode=sl1&tag=opstips-20&linkId=19444b8906dbc0f906292a0d5ac47c3c)
 - [Unix Network Programming, Volume 1: The Sockets Networking API](https://www.amazon.com/Unix-Network-Programming-Sockets-Networking/dp/0131411551/ref=as_li_ss_tl?ie=UTF8&linkCode=sl1&tag=opstips-20&linkId=b66c8bf01751dc394b6842030c4e3326)
 - There  are many resources the plan is to watch few tutorials, read some guide and start to understand what I want to put into the code. I wish to focus on the error handling side. 
-
-
-
+- [Server in C](https://ops.tips/blog/a-tcp-server-in-c/#the-overview)
+- [IPv6 server & client in C ](https://gist.github.com/inaz2/0e77c276a834ad8e3131)
+- [Example of IPv6 TCP client-server application(s) using select() and blocking sockets ](https://gist.github.com/jirihnidek/9c256703a60eb077b6a6)
+- [C - Simple ipv6 udp server using select to listen on multiple ports. Receiving message from one port, not the other](https://stackoverflow.com/questions/15260879/c-simple-ipv6-udp-server-using-select-to-listen-on-multiple-ports-receiving-m)
+- [Example IPv6 UDP client. Copyright (C) 2010 Russell Bradford](http://people.bath.ac.uk/masrjb/AOCN/uclient6.c)
+- [UDP Server-Client implementation in C](https://www.geeksforgeeks.org/udp-server-client-implementation-c/)
+- [IBM Example: IPv4 or IPv6 client ](https://www.ibm.com/support/knowledgecenter/ssw_ibm_i_72/rzab6/xip6client.htm)
+- [CS 417 Documents Sockets Tutorial](https://www.cs.rutgers.edu/~pxk/417/notes/sockets/udp.html)
+- [C Language Examples of IPv4 and IPv6 Raw Sockets for Linux](http://www.pdbuchan.com/rawsock/rawsock.html)
+- [EBOOK: Beej's Guide to Network Programming Using Internet Sockets](https://beej.us/guide/bgnet/pdf/bgnet_A4_2.pdf)
 
 ### Other Links:
 [C library function - isalnum()](https://www.tutorialspoint.com/c_standard_library/c_function_isalnum.htm)
