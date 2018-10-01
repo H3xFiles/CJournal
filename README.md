@@ -40,5 +40,16 @@ It's sunday and WOrkingon an assignment about reversing a binary file (reversing
 - [Linked List in C/C++ - Inserting a node at beginning](https://www.youtube.com/watch?v=cAZ8CyDY56s)
 - [How to create and display a Linked List in C programming](https://www.youtube.com/watch?v=7Fz7JSvlr9g)
 
+### 01/10/2018
+Today is about socket programming in C. I need to do an UDP server. 
+resources:
+- [Server in C](https://ops.tips/blog/a-tcp-server-in-c/#the-overview)
+- [Linux-Programming-Interface-System-Handbook-ebook](https://www.amazon.com/Linux-Programming-Interface-System-Handbook-ebook/dp/B004OEJMZM/ref=as_li_ss_tl?ie=UTF8&linkCode=sl1&tag=opstips-20&linkId=19444b8906dbc0f906292a0d5ac47c3c)
+- [Unix Network Programming, Volume 1: The Sockets Networking API](https://www.amazon.com/Unix-Network-Programming-Sockets-Networking/dp/0131411551/ref=as_li_ss_tl?ie=UTF8&linkCode=sl1&tag=opstips-20&linkId=b66c8bf01751dc394b6842030c4e3326)
+- There  are many resources the plan is to watch few tutorials, read some guide and start to understand what I want to put into the code. I wish to focus on the error handling side. 
+
+
+
+
 ### Other Links:
 [C library function - isalnum()](https://www.tutorialspoint.com/c_standard_library/c_function_isalnum.htm)
