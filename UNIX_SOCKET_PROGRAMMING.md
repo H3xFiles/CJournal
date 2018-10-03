@@ -40,11 +40,35 @@ The corrensponding map is stored in
 ## Struct
 To hold information in unix socket programming most socket functions require a pointer to a socket address structure as an argument. When you program you don't know if you will have to store ipv4 or ipv6 or maybe both so it is important to have something bigger enough to hold them both. 
 ```C
+struct sockaddr {
+   unsigned short    sa_family;    // address family, AF_xxx
+   char              sa_data[14];  // 14 bytes of protocol address
+};
+
+
+struct sockaddr_in {
+    short            sin_family;   // e.g. AF_INET, AF_INET6
+    unsigned short   sin_port;     // e.g. htons(3490)
+    struct in_addr   sin_addr;     // see struct in_addr, below
+    char             sin_zero[8];  // zero this if you want to
+};
+
+
+struct sockaddr_in6 {
+    u_int16_t       sin6_family;   // address family, AF_INET6
+    u_int16_t       sin6_port;     // port number, Network Byte Order
+    u_int32_t       sin6_flowinfo; // IPv6 flow information
+    struct in6_addr sin6_addr;     // IPv6 address
+    u_int32_t       sin6_scope_id; // Scope ID
+};
+
 struct sockaddr_storage {
-  sa_family_t ss_family; //check if it is an IPv4 or IPv6
-  char    __ss_pad1[[__SS_PAD1SIZE];
-  int64_t __ss_align;
-  char    __ss_pad2[_SS_PAD2SIZE];
+    sa_family_t  ss_family;     // address family
+
+    // all this is padding, implementation specific, ignore it:
+    char      __ss_pad1[_SS_PAD1SIZE];
+    int64_t   __ss_align;
+    char      __ss_pad2[_SS_PAD2SIZE];
 };
 ```
 
