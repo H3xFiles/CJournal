@@ -74,15 +74,30 @@ struct sockaddr_storage {
 
 ## Convert IPv4 and IPv6 from text to binary.
 This function converts the character string src into a network address structure in the af address family, then copies the network address structure to dst.  The af argument must be either AF_INET or AF_INET6.  dst is written in network byte order.
-Unix provides various function calls to help you manipulate IP addresses. These functions convert Internet addresses between ASCII strings (what humans prefer to use) and network byte ordered binary values
-```C
+Unix provides various function calls to help you manipulate IP addresses. These functions convert Internet addresses between ASCII strings (what humans prefer to use) and network byte ordered binary values. inet_ntop() extends the inet_ntoa(3) function to support multiple address families, inet_ntoa(3) is now considered to be deprecated in favor of inet_ntop(). 
 
-    int inet_aton(const char *strptr, struct in_addr *addrptr)
-    in_addr_t inet_addr(const char *strptr)
-    char *inet_ntoa(struct in_addr inaddr)
+```C
+#include <arpa/inet.h>
+const char *inet_ntop(int af, const void *src,                      char
+*dst, socklen_t size);
+```
+
+```C
+    char ip4[INET_ADDRSTRLEN];
+    struct sockaddr_in sa;
+    inet_ntop(AF_INET, &(sa.sin_addr), ip4, INET_ADDRSTRLEN);
+    
+    char ip6[INET6_ADDRSTRLEN];
+    struct sockaddr_in6 sa6;
+    inet_ntop(AF_INET6, &(sa6.sin6_addr), ip6, INET6_ADDRSTRLEN);
 
 ```
 
+## From IPv4 -> IPv6
+- 1 use getaddressinfo() 
+    -  ```
+    getaddrinfo() returns one or more addrinfo structures, each of which contains an Internet address that can be specified in a call to bind(2) or connect(2). The getaddrinfo() function combines the functionality provided by the gethostbyname(3) and getservbyname(3) functions into a single interface, but unlike the latter functions, getaddrinfo() is reentrant and allows programs to eliminate IPv4-versus-IPv6 dependencies. 
+       ```
 
 ## Byte Ordering Functions
 
