@@ -95,9 +95,9 @@ const char *inet_ntop(int af, const void *src,                      char
 
 ## From IPv4 -> IPv6
 - 1 use getaddressinfo() 
-    -  ```
+``` Bash
     getaddrinfo() returns one or more addrinfo structures, each of which contains an Internet address that can be specified in a call to bind(2) or connect(2). The getaddrinfo() function combines the functionality provided by the gethostbyname(3) and getservbyname(3) functions into a single interface, but unlike the latter functions, getaddrinfo() is reentrant and allows programs to eliminate IPv4-versus-IPv6 dependencies. 
-       ```
+```
 
 ## Byte Ordering Functions
 
