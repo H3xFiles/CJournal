@@ -72,6 +72,23 @@ struct sockaddr_storage {
 };
 ```
 
+## Convert IPv4 and IPv6 from text to binary.
+This function converts the character string src into a network address structure in the af address family, then copies the network address structure to dst.  The af argument must be either AF_INET or AF_INET6.  dst is written in network byte order.
+Unix provides various function calls to help you manipulate IP addresses. These functions convert Internet addresses between ASCII strings (what humans prefer to use) and network byte ordered binary values
+```C
+
+    int inet_aton(const char *strptr, struct in_addr *addrptr)
+    in_addr_t inet_addr(const char *strptr)
+    char *inet_ntoa(struct in_addr inaddr)
+
+```
+
+
+## Byte Ordering Functions
+
+
+
+
 
 
 ### Resources: 
