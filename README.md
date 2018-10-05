@@ -57,5 +57,31 @@ resources:
 - [C Language Examples of IPv4 and IPv6 Raw Sockets for Linux](http://www.pdbuchan.com/rawsock/rawsock.html)
 - [EBOOK: Beej's Guide to Network Programming Using Internet Sockets](https://beej.us/guide/bgnet/pdf/bgnet_A4_2.pdf)
 
+
+## 02/10/2018 to 04/10/208
+Wrote my notes about socket programming 
+
+# 05/10/2018
+Start to chop down some code: 
+</br>
+The plan for the asignment: 
+
+``` bash
+UDP Client :
+    Create UDP socket.
+    Send message to server.
+    Wait until response from server is recieved.
+    Process reply and go back to step 2, if necessary.
+    Close socket descriptor and exit.
+
+UDP Server :
+    Create UDP socket.
+    Bind the socket to server address.
+    Wait until datagram packet arrives from client.
+    Process the datagram packet and send a reply to client.
+    Go back to Step 3.
+```
+
+
 ### Other Links:
 [C library function - isalnum()](https://www.tutorialspoint.com/c_standard_library/c_function_isalnum.htm)
