@@ -61,25 +61,25 @@ resources:
 ## 02/10/2018 to 04/10/208
 Wrote my notes about socket programming 
 
-# 05/10/2018
+## 05/10/2018
 Start to chop down some code: 
 </br>
 The plan for the asignment: 
 
-UDP Client :
-    Create UDP socket.
-    Send message to server.
-    Wait until response from server is recieved.
-    Close socket descriptor and exit.
+### UDP Client:</br>
+- Create UDP socket.
+- Send message to server.
+- Wait until response from server is recieved.
+- Close socket descriptor and exit.
 
-UDP Server :
-    Create UDP socket.
-    instantiates a new server structure that holds the properties of our server;
-    creates a socket and makes it passive with server_listen`;
-    Bind the socket to server address.
-    Wait until datagram packet arrives from client.
-    accepts new connections on the server socket.
-    Process the datagram packet and send a reply to client.
+### UDP Server:</br>
+- Create UDP socket.
+- instantiates a new server structure that holds the properties of our server;
+- creates a socket and makes it passive with server_listen`;
+- Bind the socket to server address.
+- Wait until datagram packet arrives from client.
+- accepts new connections on the server socket.
+- Process the datagram packet and send a reply to client.
     
 
 
