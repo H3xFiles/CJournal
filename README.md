@@ -66,21 +66,21 @@ Start to chop down some code:
 </br>
 The plan for the asignment: 
 
-``` bash
 UDP Client :
     Create UDP socket.
     Send message to server.
     Wait until response from server is recieved.
-    Process reply and go back to step 2, if necessary.
     Close socket descriptor and exit.
 
 UDP Server :
     Create UDP socket.
+    instantiates a new server structure that holds the properties of our server;
+    creates a socket and makes it passive with server_listen`;
     Bind the socket to server address.
     Wait until datagram packet arrives from client.
+    accepts new connections on the server socket.
     Process the datagram packet and send a reply to client.
-    Go back to Step 3.
-```
+    
 
 
 ### Other Links:
