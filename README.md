@@ -55,7 +55,7 @@ resources:
 - [IBM Example: IPv4 or IPv6 client ](https://www.ibm.com/support/knowledgecenter/ssw_ibm_i_72/rzab6/xip6client.htm)
 - [CS 417 Documents Sockets Tutorial](https://www.cs.rutgers.edu/~pxk/417/notes/sockets/udp.html)
 - [C Language Examples of IPv4 and IPv6 Raw Sockets for Linux](http://www.pdbuchan.com/rawsock/rawsock.html)
-- [EBOOK: Beej's Guide to Network Programming Using Internet Sockets](https://beej.us/guide/bgnet/pdf/bgnet_A4_2.pdf)
+- [[Ebook]: Beej's Guide to Network Programming Using Internet Sockets](https://beej.us/guide/bgnet/pdf/bgnet_A4_2.pdf)
 
 
 ## 02/10/2018 to 04/10/208
@@ -83,7 +83,7 @@ The plan for the asignment:
     
 
 ## 07/10/2018 
-- [Linux Socket Programming by Example Warren Gay](http://alas.matf.bg.ac.rs/manuals/lspe/0789722410)
+- [[Ebook]Linux Socket Programming by Example Warren Gay](http://alas.matf.bg.ac.rs/manuals/lspe/0789722410)
 - [Man getaddrinfo](http://man7.org/linux/man-pages/man3/getaddrinfo.3.html)
 - [Get ip address from hostname in C using Linux sockets](https://www.binarytides.com/hostname-to-ip-address-c-sockets-linux/)
 - [winsock2programming](https://www.winsocketdotnetworkprogramming.com/winsock2programming/winsock2advancedInternet3a.html)
