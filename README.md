@@ -82,6 +82,13 @@ The plan for the asignment:
 - Process the datagram packet and send a reply to client.
     
 
+## 07/10/2018 
+- [Linux Socket Programming by Example Warren Gay](http://alas.matf.bg.ac.rs/manuals/lspe/0789722410)
+- [Man getaddrinfo](http://man7.org/linux/man-pages/man3/getaddrinfo.3.html)
+- [Get ip address from hostname in C using Linux sockets](https://www.binarytides.com/hostname-to-ip-address-c-sockets-linux/)
+- [winsock2programming](https://www.winsocketdotnetworkprogramming.com/winsock2programming/winsock2advancedInternet3a.html)
+- [SYN Flood DOS Attack with C Source Code (Linux)](https://www.binarytides.com/syn-flood-dos-attack/)
+
 
 ### Other Links:
 [C library function - isalnum()](https://www.tutorialspoint.com/c_standard_library/c_function_isalnum.htm)
