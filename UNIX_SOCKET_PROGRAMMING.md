@@ -45,7 +45,7 @@ struct sockaddr {
    char              sa_data[14];  // 14 bytes of protocol address
 };
 
-
+//ipv4
 struct sockaddr_in {
     short            sin_family;   // e.g. AF_INET, AF_INET6
     unsigned short   sin_port;     // e.g. htons(3490)
@@ -53,7 +53,7 @@ struct sockaddr_in {
     char             sin_zero[8];  // zero this if you want to
 };
 
-
+//ipv6
 struct sockaddr_in6 {
     u_int16_t       sin6_family;   // address family, AF_INET6
     u_int16_t       sin6_port;     // port number, Network Byte Order
@@ -62,6 +62,7 @@ struct sockaddr_in6 {
     u_int32_t       sin6_scope_id; // Scope ID
 };
 
+// ipv6 and ipv4
 struct sockaddr_storage {
     sa_family_t  ss_family;     // address family
 
