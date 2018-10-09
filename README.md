@@ -66,6 +66,8 @@ Start to chop down some code:
 </br>
 The plan for the asignment: 
 
+![](https://www.tenouk.com/Module39_files/image008.png)
+
 ### UDP Client:</br>
 - Create UDP socket.
 - Send message to server.
