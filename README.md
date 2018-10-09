@@ -97,7 +97,20 @@ The C programming language provides perror() and strerror() functions which can 
     -  The perror() function displays the string you pass to it, followed by a colon, a space, and then the textual representation of the current errno value.
     - The strerror() function, which returns a pointer to the textual representation of the current errno value.
     
+    ```C
+     void die(char *s)
+     {
+        perror(s);
+        exit(1);
+      }
+    ```
+- [Built-in Functions Provided by GCC](https://gcc.gnu.org/onlinedocs/gcc/Other-Builtins.html)
+  - [likely() and unlikely()](https://kernelnewbies.org/FAQ/LikelyUnlikely)
   
 ### Link of the day:
-[C library function - isalnum()](https://www.tutorialspoint.com/c_standard_library/c_function_isalnum.htm)
-[Many interesting C programs](https://www.codingunit.com/c-tutorial-error-handling-exception-handling)
+- [C library function - isalnum()](https://www.tutorialspoint.com/c_standard_library/c_function_isalnum.htm)
+- [Many interesting C programs](https://www.codingunit.com/c-tutorial-error-handling-exception-handling)
+- [networking-part-6-creating-a-udp-server](http://cs241.cs.illinois.edu/wikibook/networking-part-6-creating-a-udp-server.html)
+- [CS241 - Networking, Part 6: Creating a UDP server ](https://github.com/angrave/SystemProgramming/wiki/Networking%2C-Part-6%3A-Creating-a-UDP-server)
+- [System Programming - University of Illinois ebook git](https://github.com/angrave/SystemProgramming/wiki)
+
