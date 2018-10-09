@@ -93,7 +93,7 @@ The plan for the asignment:
 After reading and reading, I finally came to the conclusion of which struct to use. Things i need to check:
 - [ ] how to make a Makefile
 - [x] Error Handling </br>
-The C programming language provides perror() and strerror() functions which can be used to display the text message associated with errno.
+The C programming language provides [perror() and strerror()](https://www.studytonight.com/c/error-handling-in-c.php) functions which can be used to display the text message associated with errno.
     -  The perror() function displays the string you pass to it, followed by a colon, a space, and then the textual representation of the current errno value.
     - The strerror() function, which returns a pointer to the textual representation of the current errno value.
     
@@ -113,4 +113,5 @@ The C programming language provides perror() and strerror() functions which can 
 - [networking-part-6-creating-a-udp-server](http://cs241.cs.illinois.edu/wikibook/networking-part-6-creating-a-udp-server.html)
 - [CS241 - Networking, Part 6: Creating a UDP server ](https://github.com/angrave/SystemProgramming/wiki/Networking%2C-Part-6%3A-Creating-a-UDP-server)
 - [System Programming - University of Illinois ebook git](https://github.com/angrave/SystemProgramming/wiki)
-
+- [Programming udp sockets in C on Linux](https://www.binarytides.com/programming-udp-sockets-c-linux/)
+- [Problem setting up udp server based on book  Beej's](https://stackoverflow.com/questions/11476391/problems-while-setting-up-a-simple-udp-server)
