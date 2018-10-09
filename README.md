@@ -89,6 +89,11 @@ The plan for the asignment:
 - [winsock2programming](https://www.winsocketdotnetworkprogramming.com/winsock2programming/winsock2advancedInternet3a.html)
 - [SYN Flood DOS Attack with C Source Code (Linux)](https://www.binarytides.com/syn-flood-dos-attack/)
 
+## 09/10/2018
+After reading and reading, I finally came to the conclusion of which struct to use. Things i need to check:
+- [ ] how to make a Makefile
+
+
 
 ### Other Links:
 [C library function - isalnum()](https://www.tutorialspoint.com/c_standard_library/c_function_isalnum.htm)
