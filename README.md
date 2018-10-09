@@ -92,8 +92,12 @@ The plan for the asignment:
 ## 09/10/2018
 After reading and reading, I finally came to the conclusion of which struct to use. Things i need to check:
 - [ ] how to make a Makefile
-
-
-
-### Other Links:
+- [x] Error Handling </br>
+The C programming language provides perror() and strerror() functions which can be used to display the text message associated with errno.
+    -  The perror() function displays the string you pass to it, followed by a colon, a space, and then the textual representation of the current errno value.
+    - The strerror() function, which returns a pointer to the textual representation of the current errno value.
+    
+  
+### Link of the day:
 [C library function - isalnum()](https://www.tutorialspoint.com/c_standard_library/c_function_isalnum.htm)
+[Many interesting C programs](https://www.codingunit.com/c-tutorial-error-handling-exception-handling)
