@@ -126,3 +126,13 @@ To recap:
 - the if statement are optimized using __builtin_except  (thing that i will be back on this)
 - everything seems to work fine.
 
+- [to check the connection on the terminal](https://www.linuxquestions.org/questions/linux-newbie-8/how-to-check-all-open-tcp-connections-790895/)
+```Bash
+netstat -anp --udp
+```
+
+### Link of the day:
+[Inaz git](https://gist.github.com/inaz2/0e77c276a834ad8e3131)
+[Getaddrinfo WIKI](https://en.wikipedia.org/wiki/Getaddrinfo)
+[Get ip address from hostname in C using Linux sockets](https://www.binarytides.com/hostname-to-ip-address-c-sockets-linux/)
+
