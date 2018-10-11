@@ -130,12 +130,10 @@ To recap:
 ```Bash
 netstat -anp --udp
 ```
-
-<br>
-Now I need to implement the [timer](https://linux.die.net/man/3/clock_gettime) and the timeout using [select()](http://man7.org/linux/man-pages/man2/select.2.html)
+Now I need to implement the [timer](https://linux.die.net/man/3/clock_gettime) and the timeout using [select](http://man7.org/linux/man-pages/man2/select.2.html)
 
 ### Link of the day:
-[Inaz git](https://gist.github.com/inaz2/0e77c276a834ad8e3131)
-[Getaddrinfo WIKI](https://en.wikipedia.org/wiki/Getaddrinfo)
-[Get ip address from hostname in C using Linux sockets](https://www.binarytides.com/hostname-to-ip-address-c-sockets-linux/)
+- [Inaz git](https://gist.github.com/inaz2/0e77c276a834ad8e3131)
+- [Getaddrinfo WIKI](https://en.wikipedia.org/wiki/Getaddrinfo)
+- [Get ip address from hostname in C using Linux sockets](https://www.binarytides.com/hostname-to-ip-address-c-sockets-linux/)
 
