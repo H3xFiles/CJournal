@@ -120,7 +120,7 @@ The C programming language provides [perror() and strerror()](https://www.studyt
 - [simple UDP client/server system in a C/Unix environment](https://www.abc.se/%7Em6695/udp.html)
 
 ## 11/10/2018
-Finally it works, the problem was that I need to use write. From here should be easy to implement the different clients. 
+Finally it works, the problem was that I need to use write instead of sendto. From here should be easy to implement the different clients. 
 To recap: 
 - the server is agnostic ipv4 and ipv6
 - the if statement are optimized using __builtin_except  (thing that i will be back on this)
