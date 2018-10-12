@@ -139,6 +139,9 @@ Now I need to implement the [timer](https://linux.die.net/man/3/clock_gettime) a
 
 ## 12/10/2018
 Learn how to do a basic make file
+``` Bash
+:~# make -f makefile
+```
 ```Bash
 CC  =   gcc -o
 CFLAGS  =   -Wall -pedantic
@@ -149,4 +152,10 @@ all:	$(PROGS)
 
 %:	%.c
 	$(CC)   $(CFLAGS)   -o $@ $<
+```
+
+Other useful commands:
+
+``` Bash
+tar -cvf <name_of_file>.tar *.c makefile README 
 ```
