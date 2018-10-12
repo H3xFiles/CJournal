@@ -159,3 +159,10 @@ Other useful commands:
 ``` Bash
 tar -cvf <name_of_file>.tar *.c makefile README 
 ```
+### Links of the day: 
+- [Introduction to Embedded Systems Software and Development Environments](https://www.coursera.org/learn/introduction-embedded-systems#syllabus)
+- [Makefile TutorialPoint](https://www.tutorialspoint.com/makefile/makefile_quick_guide.htm)
+- [Q: Makefile compiling multiple times the same sources](https://stackoverflow.com/questions/4111494/makefile-compiling-multiple-times-the-same-sources)
+- [Q: Compile all C files in a directory into separate programs](https://stackoverflow.com/questions/2706064/compile-all-c-files-in-a-directory-into-separate-programs)
+- [A Simple Makefile Tutorial](http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/)
+- [Extended Makefile tutorial](https://www.codeproject.com/Articles/31488/Makefiles-in-Linux-An-Overview)
