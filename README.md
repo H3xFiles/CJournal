@@ -137,3 +137,16 @@ Now I need to implement the [timer](https://linux.die.net/man/3/clock_gettime) a
 - [Getaddrinfo WIKI](https://en.wikipedia.org/wiki/Getaddrinfo)
 - [Get ip address from hostname in C using Linux sockets](https://www.binarytides.com/hostname-to-ip-address-c-sockets-linux/)
 
+## 12/10/2018
+Learn how to do a basic make file
+```Bash
+CC  =   gcc -o
+CFLAGS  =   -Wall -pedantic
+SOURCES =   $(wildcard *.c)
+PROGS   =   $(patsubst %.c,%,$(SOURCES))
+
+all:	$(PROGS)
+
+%:	%.c
+	$(CC)   $(CFLAGS)   -o $@ $<
+```
