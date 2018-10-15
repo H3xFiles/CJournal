@@ -166,3 +166,6 @@ tar -cvf <name_of_file>.tar *.c makefile README
 - [Q: Compile all C files in a directory into separate programs](https://stackoverflow.com/questions/2706064/compile-all-c-files-in-a-directory-into-separate-programs)
 - [A Simple Makefile Tutorial](http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/)
 - [Extended Makefile tutorial](https://www.codeproject.com/Articles/31488/Makefiles-in-Linux-An-Overview)
+
+### 15/10/2018
+- [Alsa Audio](http://www.equalarea.com/paul/alsa-audio.html)
