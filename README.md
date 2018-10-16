@@ -167,5 +167,6 @@ tar -cvf <name_of_file>.tar *.c makefile README
 - [A Simple Makefile Tutorial](http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/)
 - [Extended Makefile tutorial](https://www.codeproject.com/Articles/31488/Makefiles-in-Linux-An-Overview)
 
-### 15/10/2018
+### 16/10/2018
 - [Alsa Audio](http://www.equalarea.com/paul/alsa-audio.html)
+
