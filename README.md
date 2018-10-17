@@ -170,3 +170,26 @@ tar -cvf <name_of_file>.tar *.c makefile README
 ### 16/10/2018
 - [Alsa Audio](http://www.equalarea.com/paul/alsa-audio.html)
 
+### 17/10/2018
+- [parsing-a-wav-file-in-c/](http://truelogic.org/wordpress/2015/09/04/parsing-a-wav-file-in-c/)
+- [YT: Audio Programming 1: WAV file export](https://www.youtube.com/watch?v=5GX-yyxTdgE)
+- [processing-an-audio-wav-file-with-c](https://stackoverflow.com/questions/2457482/processing-an-audio-wav-file-with-c)
+- [query=stream+wav+files+in+c](https://www.youtube.com/results?search_query=stream+wav+files+in+c)
+- [Git: make audio playback work on modern Linux systems](https://github.com/tandriamil/Licence3/blob/master/SYR2/Projet/Partie%201%20-%20Lecteur%20Audio/audio.c)
+- [Git:blob/master/audio.c](https://github.com/qqq6301/mobile2/blob/master/audio.c)
+- [Git: play.c](https://gist.github.com/WorkOfArtiz/747de07afad352feeeca)
+- [Git: WAV-streaming-app/blob/master/audio.h](https://github.com/said026/WAV-streaming-app/blob/master/audio.h)
+- [Git:src/audioclient.c ](https://github.com/apinsard/SYR-DeaDBeeF/blob/master/src/audioclient.c)
+- [Pasterbin: https://pastebin.com/MNL4qBLG](https://pastebin.com/MNL4qBLG)
+- [/c/playc_workofartiz_c](http://www.enhgo.com/snippet/c/playc_workofartiz_c)
+- [Server-Client UDP : streaming fichier audio](https://openclassrooms.com/forum/sujet/server-client-udp-streaming-fichier-audio?page=1)
+- [Audio Class A Project By: Carl Jason G. Rullan ](http://ohm.ecce.admu.edu.ph/wiki/pub/Main/DSPProjectsOctober2010/documentation-elc152-oct2010-15.pdf)
+- []()
+- []()
+- []()
+- []()
+
+
+#### other links
+- [FB bot](https://gist.github.com/WorkOfArtiz/c874bd3c371805db5710b4ca5363b0fe)
+
