@@ -197,3 +197,8 @@ tar -cvf <name_of_file>.tar *.c makefile README
 #### other links
 - [FB bot](https://gist.github.com/WorkOfArtiz/c874bd3c371805db5710b4ca5363b0fe)
 
+### 18/10/2018
+Many new things are popping up.
+
+![](http://soundfile.sapp.org/doc/WaveFormat/wav-sound-format.gif)
+- [](http://soundfile.sapp.org/doc/WaveFormat/)
