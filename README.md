@@ -252,3 +252,11 @@ The "data" subchunk contains the size of the data and the actual sound:
 
 ### Links of the day</br>
 - [WAVE PCM soundfile format ](http://soundfile.sapp.org/doc/WaveFormat/)
+
+
+## 19/10/2018
+- [Time, Clock, and Calendar Programming In C](http://www.catb.org/esr/time-programming/)
+- [A Guide to Undefined Behavior in C and C++, Part 1](https://blog.regehr.org/archives/213)
+- [Things Every Hacker Once Knew](http://www.catb.org/esr/faqs/things-every-hacker-once-knew/)
+- [processing-an-audio-wav-file-with-c](https://stackoverflow.com/questions/2457482/processing-an-audio-wav-file-with-c)
+- [parsing-a-wav-file-in-c](http://truelogic.org/wordpress/2015/09/04/parsing-a-wav-file-in-c/)
