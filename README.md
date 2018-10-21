@@ -184,14 +184,10 @@ tar -cvf <name_of_file>.tar *.c makefile README
 - [/c/playc_workofartiz_c](http://www.enhgo.com/snippet/c/playc_workofartiz_c)
 - [Server-Client UDP : streaming fichier audio](https://openclassrooms.com/forum/sujet/server-client-udp-streaming-fichier-audio?page=1)
 - [Audio Class A Project By: Carl Jason G. Rullan ](http://ohm.ecce.admu.edu.ph/wiki/pub/Main/DSPProjectsOctober2010/documentation-elc152-oct2010-15.pdf)
-- []()
 - [Q: Transmission of audio file using c sockets](https://stackoverflow.com/questions/9166998/transmission-of-audio-file-using-c-sockets)
 - [Q: Send large files over socket in C](https://stackoverflow.com/questions/8679547/send-large-files-over-socket-in-c)
 - [send audio stream over socket ](https://www.daniweb.com/programming/software-development/threads/432148/send-audio-stream-over-socket)
-- []()
-- []()
-- []()
-- []()
+
 
 
 #### other links
@@ -263,3 +259,13 @@ The "data" subchunk contains the size of the data and the actual sound:
 
 
 - [rinse and REpeat analysis malware REsearch by James Haughom Jr AKA some GOOD shit!](https://rinseandrepeatanalysis.blogspot.com/)
+
+## 21/10/2018
+I finally finished the 4th assignment that I cannot release the code, but I will soon make a tutorial guide. 
+
+- things mastered:
+	- strncp and memccp
+	- file descriptors: socket, audio
+	- pulse audio library
+	- parsing binary files
+	- implementing a protocol
