@@ -269,3 +269,8 @@ I finally finished the 4th assignment that I cannot release the code, but I will
 	- pulse audio library
 	- parsing binary files
 	- implementing a protocol
+	- char int conversions
+	- select
+	- use of timing
+	- pointers
+	
