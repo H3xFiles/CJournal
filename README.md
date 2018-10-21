@@ -261,16 +261,4 @@ The "data" subchunk contains the size of the data and the actual sound:
 - [rinse and REpeat analysis malware REsearch by James Haughom Jr AKA some GOOD shit!](https://rinseandrepeatanalysis.blogspot.com/)
 
 ## 21/10/2018
-I finally finished the 4th assignment that I cannot release the code, but I will soon make a tutorial guide. 
-
-- things mastered:
-	- strncp and memccp
-	- file descriptors: socket, audio
-	- pulse audio library
-	- parsing binary files
-	- implementing a protocol
-	- char int conversions
-	- select
-	- use of timing
-	- pointers
-	
+Finished the 4th assignments and the system programming classes.Thing learned are many few of them are the use of file descriptors, the use of select, pulse audio library, how to create a server-client solution. Moreover, I learned what does mean implementing a protocol. 
