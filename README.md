@@ -256,7 +256,7 @@ The "data" subchunk contains the size of the data and the actual sound:
 - [Things Every Hacker Once Knew](http://www.catb.org/esr/faqs/things-every-hacker-once-knew/)
 - [processing-an-audio-wav-file-with-c](https://stackoverflow.com/questions/2457482/processing-an-audio-wav-file-with-c)
 - [parsing-a-wav-file-in-c](http://truelogic.org/wordpress/2015/09/04/parsing-a-wav-file-in-c/)
-
+- [the-basics-and-pitfalls-of-pointers-in-c](https://hackaday.com/2018/04/04/the-basics-and-pitfalls-of-pointers-in-c/)
 
 - [rinse and REpeat analysis malware REsearch by James Haughom Jr AKA some GOOD shit!](https://rinseandrepeatanalysis.blogspot.com/)
 
