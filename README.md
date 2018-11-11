@@ -278,7 +278,8 @@ The really tricky part of your assignment isn't parsing - it's process managemen
 ```
 
 Let's drop some good video tutorial on the topic: 
-- https://www.youtube.com/watch?v=QUCSyDFPbOI
-- https://www.youtube.com/playlist?list=PLypxmOPCOkHXbJhUgjRaV2pD9MJkIArhg
-- https://www.youtube.com/watch?v=K6AdwYBxI2I
-- https://www.youtube.com/watch?v=z4LEuxMGGs8
+- [C Tutorial | Write your own Shell](https://www.youtube.com/watch?v=QUCSyDFPbOI)
+- [C Programming in Linux Tutorial](https://www.youtube.com/playlist?list=PLypxmOPCOkHXbJhUgjRaV2pD9MJkIArhg)
+- [How to make an operating system from scratch (Shell)](https://www.youtube.com/watch?v=K6AdwYBxI2I)
+- [Writing a Simple Shell](https://www.youtube.com/watch?v=z4LEuxMGGs8)
+- [https://www.youtube.com/watch?v=FcUlMsVX7aE](https://www.youtube.com/watch?v=FcUlMsVX7aE)
