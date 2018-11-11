@@ -1,6 +1,6 @@
 # CJournal
 
-### On 19/09/2018
+### On 19/09/2018 BigBan!!
 I am starting this journal to better document C. 
 
 
@@ -20,7 +20,7 @@ I am starting this journal to better document C.
 - [functions-malloc-and-free](https://www.codingunit.com/c-tutorial-the-functions-malloc-and-free)
 
 
-### 20/09/2018
+### 20/09/2018 Wow, that's a lot of notes from the class ... slow clap
 Class about gdb at the university.
 Check tools: Valgrind, strace
 
@@ -31,16 +31,16 @@ Check tools: Valgrind, strace
 - [How processes get more memory. (mmap, brk) - Jacob Sorber](https://www.youtube.com/watch?v=XV5sRaSVtXQ)
 
 
-### 21/09/2018
+### 21/09/2018 One is better than nothing 
 - [Socket Programming in C](https://www.youtube.com/watch?v=LtXEMwSG5-8)
 
-### 23/09/2018
+### 23/09/2018 Turns upside down a binary file ... 
 It's sunday and WOrkingon an assignment about reversing a binary file (reversing in the meaning of reversing the content bottom-up), weather sucks raining so much all night long. Deadline tomorrow, pretty chill. For this assignment I used mostly the teacher slides and some youtube video. Here is the code [DLinkedList_reverse_binary](https://github.com/H3xHunter/CJournal/blob/master/DLinkedList_reverse_binary.md).
 
 - [Linked List in C/C++ - Inserting a node at beginning](https://www.youtube.com/watch?v=cAZ8CyDY56s)
 - [How to create and display a Linked List in C programming](https://www.youtube.com/watch?v=7Fz7JSvlr9g)
 
-### 01/10/2018
+### 01/10/2018 UDP server
 Today is about socket programming in C. I need to do an UDP server. 
 resources:
 - [Linux-Programming-Interface-System-Handbook-ebook](https://www.amazon.com/Linux-Programming-Interface-System-Handbook-ebook/dp/B004OEJMZM/ref=as_li_ss_tl?ie=UTF8&linkCode=sl1&tag=opstips-20&linkId=19444b8906dbc0f906292a0d5ac47c3c)
@@ -61,7 +61,7 @@ resources:
 ## 02/10/2018 to 04/10/208
 Wrote my notes about socket programming 
 
-## 05/10/2018
+## 05/10/2018 Still trying to grasp what I should do
 Start to chop down some code: 
 </br>
 The plan for the asignment: 
@@ -84,14 +84,14 @@ The plan for the asignment:
 - Process the datagram packet and send a reply to client.
     
 
-## 07/10/2018 
+## 07/10/2018 Far Far early in a galaxy far far away 
 - [[Ebook]Linux Socket Programming by Example Warren Gay](http://alas.matf.bg.ac.rs/manuals/lspe/0789722410)
 - [Man getaddrinfo](http://man7.org/linux/man-pages/man3/getaddrinfo.3.html)
 - [Get ip address from hostname in C using Linux sockets](https://www.binarytides.com/hostname-to-ip-address-c-sockets-linux/)
 - [winsock2programming](https://www.winsocketdotnetworkprogramming.com/winsock2programming/winsock2advancedInternet3a.html)
 - [SYN Flood DOS Attack with C Source Code (Linux)](https://www.binarytides.com/syn-flood-dos-attack/)
 
-## 09/10/2018
+## 09/10/2018 Struct problems  
 After reading and reading, I finally came to the conclusion of which struct to use. Things i need to check:
 - [ ] how to make a Makefile
 - [x] Error Handling </br>
@@ -119,7 +119,7 @@ The C programming language provides [perror() and strerror()](https://www.studyt
 - [Problem setting up udp server based on book  Beej's](https://stackoverflow.com/questions/11476391/problems-while-setting-up-a-simple-udp-server)
 - [simple UDP client/server system in a C/Unix environment](https://www.abc.se/%7Em6695/udp.html)
 
-## 11/10/2018
+## 11/10/2018 Finding solutions
 Finally it works, the problem was that I need to use write instead of sendto. From here should be easy to implement the different clients. 
 To recap: 
 - the server is agnostic ipv4 and ipv6
@@ -137,7 +137,7 @@ Now I need to implement the [timer](https://linux.die.net/man/3/clock_gettime) a
 - [Getaddrinfo WIKI](https://en.wikipedia.org/wiki/Getaddrinfo)
 - [Get ip address from hostname in C using Linux sockets](https://www.binarytides.com/hostname-to-ip-address-c-sockets-linux/)
 
-## 12/10/2018
+## 12/10/2018 my own makefile
 Learn how to do a basic make file
 ``` Bash
 :~# make -f makefile
@@ -167,10 +167,10 @@ tar -cvf <name_of_file>.tar *.c makefile README
 - [A Simple Makefile Tutorial](http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/)
 - [Extended Makefile tutorial](https://www.codeproject.com/Articles/31488/Makefiles-in-Linux-An-Overview)
 
-### 16/10/2018
+### 16/10/2018 ehm, ... what I was doing here? 
 - [Alsa Audio](http://www.equalarea.com/paul/alsa-audio.html)
 
-### 17/10/2018
+### 17/10/2018 wow, so many things to read 
 - [parsing-a-wav-file-in-c/](http://truelogic.org/wordpress/2015/09/04/parsing-a-wav-file-in-c/)
 - [YT: Audio Programming 1: WAV file export](https://www.youtube.com/watch?v=5GX-yyxTdgE)
 - [processing-an-audio-wav-file-with-c](https://stackoverflow.com/questions/2457482/processing-an-audio-wav-file-with-c)
@@ -193,7 +193,7 @@ tar -cvf <name_of_file>.tar *.c makefile README
 #### other links
 - [FB bot](https://gist.github.com/WorkOfArtiz/c874bd3c371805db5710b4ca5363b0fe)
 
-### 18/10/2018
+### 18/10/2018 RIFF Day
 The WAVE file format is a subset of Microsoft's RIFF specification for the storage of multimedia files. A RIFF file starts out with a file header followed by a sequence of data chunks. A WAVE file is often just a RIFF file with a single "WAVE" chunk which consists of two sub-chunks -- a "fmt " chunk specifying the data format and a "data" chunk containing the actual sample data. Call this form the "Canonical form". Who knows how it really all works. An almost complete description which seems totally useless unless you want to spend a week looking over it can be found at MSDN (mostly describes the non-PCM, or registered proprietary data formats). 
 ![](http://soundfile.sapp.org/doc/WaveFormat/wav-sound-format.gif)
 
@@ -250,7 +250,7 @@ The "data" subchunk contains the size of the data and the actual sound:
 - [WAVE PCM soundfile format ](http://soundfile.sapp.org/doc/WaveFormat/)
 
 
-## 19/10/2018
+## 19/10/2018 Sometime in the assignment
 - [Time, Clock, and Calendar Programming In C](http://www.catb.org/esr/time-programming/)
 - [A Guide to Undefined Behavior in C and C++, Part 1](https://blog.regehr.org/archives/213)
 - [Things Every Hacker Once Knew](http://www.catb.org/esr/faqs/things-every-hacker-once-knew/)
@@ -260,13 +260,13 @@ The "data" subchunk contains the size of the data and the actual sound:
 
 - [rinse and REpeat analysis malware REsearch by James Haughom Jr AKA some GOOD shit!](https://rinseandrepeatanalysis.blogspot.com/)
 
-## 21/10/2018
+## 21/10/2018 The end!
 Finished the 4th assignments and the system programming classes.Thing learned are many few of them are the use of file descriptors, the use of select, pulse audio library, how to create a server-client solution. Moreover, I learned what does mean implementing a protocol. 
 
-## 11/11/2028
+## 11/11/2028 Writing a shell 
 A bew assignment coming in, I need to do a shell in C. Awesome!! 
 It has to support what most of shells support, including running thigns in bg, detaching ... 
-First thing  first, [this](http://www.lostsaloon.com/technology/how-to-detach-process-from-the-terminal-in-linux/) awesome link about detaching. There is this handy dandy [Tutorial - Write a Shell in CStephen Brennan ](https://brennan.io/2015/01/16/write-a-shell-in-c/) that need to be read. Then, I guess I need to read about [pipes](https://www.geeksforgeeks.org/pipe-system-call/), and seems I need this book: 
+First thing  first, [this](http://www.lostsaloon.com/technology/how-to-detach-process-from-the-terminal-in-linux/) awesome link about detaching. There is this handy dandy [Tutorial - Write a Shell in CStephen Brennan ](https://brennan.io/2015/01/16/write-a-shell-in-c/) that need to be read. Then, I guess I need to read about [pipes](https://www.geeksforgeeks.org/pipe-system-call/), [fork()](https://www.geeksforgeeks.org/fork-system-call/) and seems I need this book
 [Advanced Programming in the UNIX Environment, 3rd Edition](https://www.amazon.com/Advanced-Programming-UNIX-Environment-Edition/dp/0321637739) someone wrote [this](https://www.quora.com/What-are-some-good-tutorials-for-writing-a-shell-in-C) on quora: 
 ```xml
 The really tricky part of your assignment isn't parsing - it's process management.  Read APUE Chapter 8 (Process Control). Read it again. Write a program that:
@@ -279,5 +279,6 @@ The really tricky part of your assignment isn't parsing - it's process managemen
 
 Let's drop some good video tutorial on the topic: 
 - https://www.youtube.com/watch?v=QUCSyDFPbOI
-- 
-- 
+- https://www.youtube.com/playlist?list=PLypxmOPCOkHXbJhUgjRaV2pD9MJkIArhg
+- https://www.youtube.com/watch?v=K6AdwYBxI2I
+- https://www.youtube.com/watch?v=z4LEuxMGGs8
