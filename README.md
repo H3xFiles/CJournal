@@ -262,3 +262,22 @@ The "data" subchunk contains the size of the data and the actual sound:
 
 ## 21/10/2018
 Finished the 4th assignments and the system programming classes.Thing learned are many few of them are the use of file descriptors, the use of select, pulse audio library, how to create a server-client solution. Moreover, I learned what does mean implementing a protocol. 
+
+## 11/11/2028
+A bew assignment coming in, I need to do a shell in C. Awesome!! 
+It has to support what most of shells support, including running thigns in bg, detaching ... 
+First thing  first, [this](http://www.lostsaloon.com/technology/how-to-detach-process-from-the-terminal-in-linux/) awesome link about detaching. There is this handy dandy [Tutorial - Write a Shell in CStephen Brennan ](https://brennan.io/2015/01/16/write-a-shell-in-c/) that need to be read. Then, I guess I need to read about [pipes](https://www.geeksforgeeks.org/pipe-system-call/), and seems I need this book: 
+[Advanced Programming in the UNIX Environment, 3rd Edition](https://www.amazon.com/Advanced-Programming-UNIX-Environment-Edition/dp/0321637739) someone wrote [this](https://www.quora.com/What-are-some-good-tutorials-for-writing-a-shell-in-C) on quora: 
+```xml
+The really tricky part of your assignment isn't parsing - it's process management.  Read APUE Chapter 8 (Process Control). Read it again. Write a program that:
+
+    fork()s a new process,
+    exec()s the /bin/echo program with the two arguments "Hello" and "world!",
+    wait()s for the child process to complete, then
+    returns the result from wait().
+```
+
+Let's drop some good video tutorial on the topic: 
+- https://www.youtube.com/watch?v=QUCSyDFPbOI
+- 
+- 
