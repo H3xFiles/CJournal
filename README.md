@@ -263,7 +263,7 @@ The "data" subchunk contains the size of the data and the actual sound:
 ## 21/10/2018 The end!
 Finished the 4th assignments and the system programming classes.Thing learned are many few of them are the use of file descriptors, the use of select, pulse audio library, how to create a server-client solution. Moreover, I learned what does mean implementing a protocol. 
 
-## 11/11/2028 Writing a shell 
+## 11/11/2018 Writing a shell 
 A bew assignment coming in, I need to do a shell in C. Awesome!! 
 It has to support what most of shells support, including running thigns in bg, detaching ... 
 First thing  first, [this](http://www.lostsaloon.com/technology/how-to-detach-process-from-the-terminal-in-linux/) awesome link about detaching. There is this handy dandy [Tutorial - Write a Shell in CStephen Brennan ](https://brennan.io/2015/01/16/write-a-shell-in-c/) that need to be read. Then, I guess I need to read about [pipes](https://www.geeksforgeeks.org/pipe-system-call/), [fork()](https://www.geeksforgeeks.org/fork-system-call/) and seems I need this book
