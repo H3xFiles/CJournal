@@ -286,3 +286,4 @@ Let's drop some good video tutorial on the topic:
 
 - [The Linux Programmer's Guide is © 1994, 1995 by Sven Goldt](https://www.tldp.org/LDP/lpg/node1.html) | Very interesting
 - [6.2.2 Creating Pipes in C](https://www.tldp.org/LDP/lpg/node11.html)
+- [Man page pipe](http://man7.org/linux/man-pages/man2/pipe.2.html)
