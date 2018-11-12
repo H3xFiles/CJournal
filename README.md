@@ -264,8 +264,8 @@ The "data" subchunk contains the size of the data and the actual sound:
 Finished the 4th assignments and the system programming classes.Thing learned are many few of them are the use of file descriptors, the use of select, pulse audio library, how to create a server-client solution. Moreover, I learned what does mean implementing a protocol. 
 
 ## 11/11/2018 Writing a shell 
-A bew assignment coming in, I need to do a shell in C. Awesome!! 
-It has to support what most of shells support, including running thigns in bg, detaching ... 
+A new assignment coming in, I need to do a shell in C. Awesome!! 
+It has to support what most of shells support, including running processes in bg, detaching ... 
 First thing  first, [this](http://www.lostsaloon.com/technology/how-to-detach-process-from-the-terminal-in-linux/) awesome link about detaching. There is this handy dandy [Tutorial - Write a Shell in CStephen Brennan ](https://brennan.io/2015/01/16/write-a-shell-in-c/) that need to be read. Then, I guess I need to read about [pipes](https://www.geeksforgeeks.org/pipe-system-call/), [fork()](https://www.geeksforgeeks.org/fork-system-call/) and seems I need this book
 [Advanced Programming in the UNIX Environment, 3rd Edition](https://www.amazon.com/Advanced-Programming-UNIX-Environment-Edition/dp/0321637739) someone wrote [this](https://www.quora.com/What-are-some-good-tutorials-for-writing-a-shell-in-C) on quora: 
 ```xml
@@ -283,3 +283,6 @@ Let's drop some good video tutorial on the topic:
 - [How to make an operating system from scratch (Shell)](https://www.youtube.com/watch?v=K6AdwYBxI2I)
 - [Writing a Simple Shell](https://www.youtube.com/watch?v=z4LEuxMGGs8)
 - [https://www.youtube.com/watch?v=FcUlMsVX7aE](https://www.youtube.com/watch?v=FcUlMsVX7aE)
+
+- [The Linux Programmer's Guide is © 1994, 1995 by Sven Goldt](https://www.tldp.org/LDP/lpg/node1.html) | Very interesting
+- [6.2.2 Creating Pipes in C](https://www.tldp.org/LDP/lpg/node11.html)
