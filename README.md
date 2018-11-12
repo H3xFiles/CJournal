@@ -1,6 +1,6 @@
 # CJournal
 
-### On 19/09/2018 BigBan!!
+### On 19/09/2018 BigBang!!
 I am starting this journal to better document C. 
 
 
