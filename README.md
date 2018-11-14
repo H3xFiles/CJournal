@@ -288,3 +288,29 @@ Let's drop some good video tutorial on the topic:
 - [6.2.2 Creating Pipes in C](https://www.tldp.org/LDP/lpg/node11.html)
 - [Man page pipe](http://man7.org/linux/man-pages/man2/pipe.2.html)
 
+## 14/11/2018
+
+#### Fork()
+On success, the PID of the child process is returned in the parent, and 0 is returned in the child. On failure, -1 is returned in the parent, no child process is created, and errno is set appropriately. 
+```
+Name
+fork - create a child process
+Synopsis
+#include <unistd.h>
+
+pid_t fork(void); 
+```
+
+#### pipe()
+pipe() creates a pipe, a unidirectional data channel that can be used for interprocess communication. The array pipefd is used to return two file descriptors referring to the ends of the pipe. pipefd[0] refers to the read end of the pipe. pipefd[1] refers to the write end of the pipe.
+```
+Name
+pipe, pipe2 - create pipe
+Synopsis
+
+#include <unistd.h>
+int pipe(int pipefd[2]);
+#define _GNU_SOURCE             /* See feature_test_macros(7) */#include
+<fcntl.h>              /* Obtain O_* constant definitions */#include <unistd.h>
+int pipe2(int pipefd[2], int flags);
+```
