@@ -289,7 +289,8 @@ Let's drop some good video tutorial on the topic:
 - [Man page pipe](http://man7.org/linux/man-pages/man2/pipe.2.html)
 
 ## 14/11/2018
-
+![](http://stevehanov.ca/comics/comic_20040326.png)
+My [shell](https://github.com/H3xFiles/h3xShell), once the course is done I'll make it public -Maybe.
 #### Fork()
 On success, the PID of the child process is returned in the parent, and 0 is returned in the child. On failure, -1 is returned in the parent, no child process is created, and errno is set appropriately. 
 ```
@@ -314,3 +315,29 @@ int pipe(int pipefd[2]);
 <fcntl.h>              /* Obtain O_* constant definitions */#include <unistd.h>
 int pipe2(int pipefd[2], int flags);
 ```
+Ok 5 in the morning my brain is melting ... time to drop some links and get to bed! 
+
+### Links:
+- https://stackoverflow.com/questions/8082932/connecting-n-commands-with-pipes-in-a-shell
+- https://linux.die.net/man/3/daemon
+- https://linux.die.net/man/2/sigpending
+- [strtok](https://www.tutorialspoint.com/c_standard_library/c_function_strtok.htm)
+- [Coding tips they don't teach you in school](http://stevehanov.ca/blog/index.php?id=57)
+- https://stackoverflow.com/questions/8946797/gcc-options-for-strictest-c-code
+- https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html
+- https://stackoverflow.com/questions/11714827/how-to-turn-on-literally-all-of-gccs-warnings
+- https://stackoverflow.com/questions/18071209/how-to-enable-the-highest-warning-level-in-gcc-compilerboost-is-heavily-used
+- https://web.stanford.edu/class/cs107/guide/make.html
+- https://www.oreilly.com/library/view/managing-projects-with/0596006101/ch01.html
+- http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/
+- https://randu.org/tutorials/c/make.php
+
+### other links to put somewhere: 
+- https://holeybeep.ninja/
+- "CVE-2018-0492 poorf of concept
+- https://sigint.sh/#/holeybeep
+- https://www.debian.org/security/2018/dsa-4163
+- http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-0492
+- https://github.com/rxwx/CVE-2018-0802/blob/master/packager_exec_CVE-2018-0802.py
+- https://www.exploit-db.com/exploits/44452/
+- https://gist.github.com/fkt/5f8f9560ef54e11ff7df8bec09dc8f9a
