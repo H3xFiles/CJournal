@@ -319,6 +319,11 @@ int pipe2(int pipefd[2], int flags);
 ```
 Ok 5 in the morning my brain is melting ... time to drop some links and get to bed! 
 
+### 17/11/2018
+[This](https://gist.github.com/fkt/5f8f9560ef54e11ff7df8bec09dc8f9a) repo gave me a good idea regarding signal handling.
+```signal(SIGINT, handle_signal); ```
+Another important explanation can be found in my OSjournal entry [process creation](https://github.com/H3xFiles/OperativeSystem_journal/blob/master/README.md#unix-process-creation)
+
 ### Links:
 - https://stackoverflow.com/questions/8082932/connecting-n-commands-with-pipes-in-a-shell
 - https://linux.die.net/man/3/daemon
