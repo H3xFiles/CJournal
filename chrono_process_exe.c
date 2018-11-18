@@ -1,3 +1,5 @@
+// Original https://rosettacode.org/wiki/Handle_a_signal#C
+
 #include <stdio.h>
 #include <stdlib.h>	// for exit()
 #include <signal.h>
