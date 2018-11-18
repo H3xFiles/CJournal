@@ -319,16 +319,7 @@ int pipe2(int pipefd[2], int flags);
 ```
 Ok 5 in the morning my brain is melting ... time to drop some links and get to bed! 
 
-### 17/11/2018
-[This](https://gist.github.com/fkt/5f8f9560ef54e11ff7df8bec09dc8f9a) repo gave me a good idea regarding signal handling.
-```signal(SIGINT, handle_signal); ```
-Another important explanation can be found in my OSjournal entry [process creation](https://github.com/H3xFiles/OperativeSystem_journal/blob/master/README.md#unix-process-creation)
-Things I need to check:
-- dup
-- unwait
-- 
-
-### Links:
+#### Few Links:
 - https://stackoverflow.com/questions/8082932/connecting-n-commands-with-pipes-in-a-shell
 - https://linux.die.net/man/3/daemon
 - https://linux.die.net/man/2/sigpending
@@ -343,7 +334,7 @@ Things I need to check:
 - http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/
 - https://randu.org/tutorials/c/make.php
 
-### other links to put somewhere: 
+#### other links to put somewhere: 
 - https://holeybeep.ninja/
 - "CVE-2018-0492 poorf of concept
 - https://sigint.sh/#/holeybeep
@@ -352,3 +343,44 @@ Things I need to check:
 - https://github.com/rxwx/CVE-2018-0802/blob/master/packager_exec_CVE-2018-0802.py
 - https://www.exploit-db.com/exploits/44452/
 - https://gist.github.com/fkt/5f8f9560ef54e11ff7df8bec09dc8f9a
+
+### 17/11/2018
+[This](https://gist.github.com/fkt/5f8f9560ef54e11ff7df8bec09dc8f9a) repo gave me a good idea regarding signal handling.
+```signal(SIGINT, handle_signal); ```
+Another important explanation can be found in my OSjournal entry [process creation](https://github.com/H3xFiles/OperativeSystem_journal/blob/master/README.md#unix-process-creation)
+The all process seems still something unclear, what I have understood is that the program need to do something like:
+
+```C
+pid = fork();
+
+// parent process
+if ( pid == 0 )
+{
+    execve(tmp[i], arg, env);
+
+    // if you get here, execve() failed and you need
+    // to be really careful because you're now running
+    // a copy of the parent process - you can corrupt
+    // files open in the parent, for example, because
+    // data can be buffered in FILE * streams.
+
+    // this is safe, though.  Note the underscore!
+    // exit(0) without the underscore is *not* safe here
+    _exit(0);
+}
+// child process
+else if ( pid > ( pid_t ) 0 )
+{
+    wait(&pid);
+}
+else
+{
+    // fork() failed - handle error
+}
+
+return (0);
+```
+
+
+
+
