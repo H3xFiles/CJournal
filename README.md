@@ -381,6 +381,11 @@ else
 return (0);
 ```
 
-
+### 21/11/2018
+- https://stackoverflow.com/questions/8082932/connecting-n-commands-with-pipes-in-a-shell
+- https://www.recurse.com/blog/7-understanding-c-by-learning-assembly
+- https://www.codeproject.com/Articles/15971/Using-Inline-Assembly-in-C-C
+- [Creating pipesin C](https://www.tldp.org/LDP/lpg/node11.html)
+- [How Linux pipes work under the hood](https://brandonwamboldt.ca/how-linux-pipes-work-under-the-hood-1518/)
 
 
