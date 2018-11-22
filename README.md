@@ -389,3 +389,16 @@ return (0);
 - [How Linux pipes work under the hood](https://brandonwamboldt.ca/how-linux-pipes-work-under-the-hood-1518/)
 
 
+### 23/11/2018
+```
+ #include <unistd.h>
+extern char **environ;
+int execl(const char *path, const char *arg0, ..., const char *argn, (char *)0);
+int execle(const char *path, const char *arg0, ..., const char *argn, (char *)0, char *const envp[]);
+int execlp(const char *file, const char *arg0, ..., const char *argn, (char *)0);
+int execlpe(const char *file, const char *arg0, ..., const char *argn, (char *)0, char *const envp[]);
+int execv(const char *path, char *const argv[]);
+int execve(const char *path, char *const argv[], char *const envp[]);
+int execvp(const char *file, char *const argv[]);
+int execvpe(const char *file, char *const argv[], char *const envp[]); 
+```
