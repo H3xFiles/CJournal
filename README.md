@@ -5,7 +5,7 @@
 ### 25/11/2018
 THe shell is not finished yet, I created [this page](https://github.com/H3xFiles/CJournal/blob/master/creating_a_unix_shell.md) for summarize all the info I have on the topic.
 - [Creating a shell](https://github.com/H3xFiles/CJournal/blob/master/creating_a_unix_shell.md)
-
+- [NEW! Pipes, Forks, & Dups: Understanding Command Execution and Input/Output Data Flow](http://www.rozmichelle.com/pipes-forks-dups/)
 
 
 
