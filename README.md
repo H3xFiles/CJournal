@@ -1,8 +1,18 @@
 # CJournal
 
+
+***
+### 25/11/2018
+THe shell is not finished yet, I created [this page](https://github.com/H3xFiles/CJournal/blob/master/creating_a_unix_shell.md) for summarize all the info I have on the topic.
+- [Creating a shell](https://github.com/H3xFiles/CJournal/blob/master/creating_a_unix_shell.md)
+
+
+
+
+***
+
 ### On 19/09/2018 BigBang!!
 I am starting this journal to better document C. 
-
 
 #### Links of the day:
 - [C Linked List ZENTUT](http://www.zentut.com/c-tutorial/c-linked-list/)
@@ -19,16 +29,6 @@ I am starting this journal to better document C.
 - [c-structures-pointers](https://www.programiz.com/c-programming/c-structures-pointers)
 - [functions-malloc-and-free](https://www.codingunit.com/c-tutorial-the-functions-malloc-and-free)
 
-
-***
-### 25/11/2018
-THe shell is not finished yet, I created [this page](https://github.com/H3xFiles/CJournal/blob/master/creating_a_unix_shell.md) for summarize all the info I have on the topic.
-- [Creating a shell](https://github.com/H3xFiles/CJournal/blob/master/creating_a_unix_shell.md)
-
-
-
-
-***
 
 
 ### 20/09/2018 Wow, that's a lot of notes from the class ... slow clap
