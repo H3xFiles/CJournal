@@ -2,8 +2,7 @@
 
 
 ***
-
-### 29/11/2018 Trying to make a malloc, calloc, free, realloc in line assembly.
+### <img src="https://www.searunnerspeedboat.com/wp-content/uploads/2017/05/new-icon-modele-2.png" width="50" height="45">   29/11/2018 Trying to make a malloc, calloc, free, realloc in line assembly.
 Trying to make a malloc, calloc, free, realloc in line assembly.
 - [Assembler + C program (inline Assembly)](https://www.youtube.com/watch?v=qRqflg2ZPB0)
 - [Devon Crawford YT's channel](https://www.youtube.com/channel/UCDrekHmOnkptxq3gUU0IyfA)
