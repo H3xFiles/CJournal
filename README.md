@@ -3,7 +3,7 @@
 
 ***
 
-### 29/11/2018
+### 29/11/2018 Trying to make a malloc, calloc, free, realloc in line assembly.
 Trying to make a malloc, calloc, free, realloc in line assembly.
 - [Assembler + C program (inline Assembly)](https://www.youtube.com/watch?v=qRqflg2ZPB0)
 - [Devon Crawford YT's channel](https://www.youtube.com/channel/UCDrekHmOnkptxq3gUU0IyfA)
@@ -18,7 +18,8 @@ Trying to make a malloc, calloc, free, realloc in line assembly.
 - [making your own malloc function in C](https://stackoverflow.com/questions/13764711/making-your-own-malloc-function-in-c)
 - [Your own malloc function(MyMalloc and MyFree) - Part 01](https://www.youtube.com/watch?v=CTnGCnIDP5A)
 
-
+#### Other links:
+- [free-static-code-analysis-tools](https://medium.com/@maxpowersii/top-free-static-code-analysis-tools-7d39abe36e5c)
 
 ### 25/11/2018
 THe shell is not finished yet, I created [this page](https://github.com/H3xFiles/CJournal/blob/master/creating_a_unix_shell.md) for summarize all the info I have on the topic.
