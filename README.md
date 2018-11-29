@@ -4,6 +4,7 @@
 ***
 
 ### 29/11/2018
+Trying to make a malloc, calloc, free, realloc in line assembly.
 - [Assembler + C program (inline Assembly)](https://www.youtube.com/watch?v=qRqflg2ZPB0)
 - [Devon Crawford YT's channel](https://www.youtube.com/channel/UCDrekHmOnkptxq3gUU0IyfA)
 - [A Tiny Guide to GCC Inline Assembly 12 Jun 2008](http://ericw.ca/notes/a-tiny-guide-to-gcc-inline-assembly.html)
@@ -26,7 +27,8 @@ THe shell is not finished yet, I created [this page](https://github.com/H3xFiles
 
 
 
-![](https://vignette.wikia.nocookie.net/rr3/images/3/3a/Red-arrow-segmentspoint-up_orig.gif/revision/latest?cb=20180426031957)
+![](https://vignette.wikia.nocookie.net/rr3/images/3/3a/Red-arrow-segmentspoint-up_orig.gif/revision/latest?cb=20180426031957)![](https://vignette.wikia.nocookie.net/rr3/images/3/3a/Red-arrow-segmentspoint-up_orig.gif/revision/latest?cb=20180426031957)![](https://vignette.wikia.nocookie.net/rr3/images/3/3a/Red-arrow-segmentspoint-up_orig.gif/revision/latest?cb=20180426031957)
+# ____ TOP TOP TOP TOP TOP TOP TOP TOP TOP ____
 ***
 
 ### On 19/09/2018 BigBang!!
