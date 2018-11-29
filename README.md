@@ -2,6 +2,23 @@
 
 
 ***
+
+### 29/11/2018
+- [Assembler + C program (inline Assembly)](https://www.youtube.com/watch?v=qRqflg2ZPB0)
+- [Devon Crawford YT's channel](https://www.youtube.com/channel/UCDrekHmOnkptxq3gUU0IyfA)
+- [A Tiny Guide to GCC Inline Assembly 12 Jun 2008](http://ericw.ca/notes/a-tiny-guide-to-gcc-inline-assembly.html)
+- [GCC Inline ASM](https://locklessinc.com/articles/gcc_asm/)
+- [ Introduction to GCC Inline  By Robin Miyagi](http://asm.sourceforge.net/articles/rmiyagi-inline-asm.txt)
+- [OS-dev.org Inline Assembly](https://wiki.osdev.org/Inline_Assembly)
+- [GCC-Inline-Assembly-HOWTO Sandeep.S](https://www.ibiblio.org/gferg/ldp/GCC-Inline-Assembly-HOWTO.html)
+- [0xax.gitbooks.io inline assembly](https://0xax.gitbooks.io/linux-insides/content/Theory/linux-theory-3.html)
+- [http://gcc.gnu.org/onlinedocs/gcc/Extended-Asm.html](6.45.2 Extended Asm - Assembler Instructions with C Expression Operands)
+- [Let's write a malloc and see how it works with existing programs!](https://danluu.com/malloc-tutorial/)
+- [making your own malloc function in C](https://stackoverflow.com/questions/13764711/making-your-own-malloc-function-in-c)
+- [Your own malloc function(MyMalloc and MyFree) - Part 01](https://www.youtube.com/watch?v=CTnGCnIDP5A)
+
+
+
 ### 25/11/2018
 THe shell is not finished yet, I created [this page](https://github.com/H3xFiles/CJournal/blob/master/creating_a_unix_shell.md) for summarize all the info I have on the topic.
 - [Creating a shell](https://github.com/H3xFiles/CJournal/blob/master/creating_a_unix_shell.md)
@@ -9,6 +26,7 @@ THe shell is not finished yet, I created [this page](https://github.com/H3xFiles
 
 
 
+![](https://vignette.wikia.nocookie.net/rr3/images/3/3a/Red-arrow-segmentspoint-up_orig.gif/revision/latest?cb=20180426031957)
 ***
 
 ### On 19/09/2018 BigBang!!
